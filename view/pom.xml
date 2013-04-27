@@ -11,6 +11,7 @@
     </parent>
 
     <artifactId>trampoline-view</artifactId>
+    <packaging>war</packaging>
     <name>Trampoline view tier</name>
 
     <dependencies>
