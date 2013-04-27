@@ -1,3 +1,5 @@
 /target
+/biz/target
+/view/target
 /.idea
 *.iml
