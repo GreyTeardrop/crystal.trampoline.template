@@ -19,6 +19,9 @@
         <spring.version>3.2.2.RELEASE</spring.version>
         <slf4j.version>1.7.5</slf4j.version>
         <logback.version>1.0.11</logback.version>
+
+        <trampoline.view.port>7001</trampoline.view.port>
+        <trampoline.biz.port>7101</trampoline.biz.port>
     </properties>
 
     <build>
