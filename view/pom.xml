@@ -8,6 +8,7 @@
         <artifactId>trampoline-parent</artifactId>
         <groupId>crystal.trampoline</groupId>
         <version>1.0-SNAPSHOT</version>
+        <relativePath>../pom.xml</relativePath>
     </parent>
 
     <artifactId>trampoline-view</artifactId>
