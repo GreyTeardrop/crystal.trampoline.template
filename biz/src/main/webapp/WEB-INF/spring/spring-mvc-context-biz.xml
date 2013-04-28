@@ -4,4 +4,9 @@
        xsi:schemaLocation="
        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
+    <bean name="/SampleService" class="org.springframework.remoting.httpinvoker.HttpInvokerServiceExporter">
+        <property name="service" ref="sampleService"/>
+        <property name="serviceInterface" value="crystal.trampoline.biz.sample.SampleService"/>
+    </bean>
+
 </beans>
