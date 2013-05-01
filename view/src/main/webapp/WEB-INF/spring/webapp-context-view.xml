@@ -10,7 +10,7 @@
 
     <bean id="sampleService" class="org.springframework.remoting.httpinvoker.HttpInvokerProxyFactoryBean">
         <!-- for now, biz url is hardcoded  -->
-        <property name="serviceUrl" value="http://localhost:7101/remoting/SampleService"/>
+        <property name="serviceUrl" value="http://localhost:${trampoline.biz.port}/remoting/SampleService"/>
         <property name="serviceInterface" value="crystal.trampoline.biz.sample.SampleService"/>
     </bean>
 
